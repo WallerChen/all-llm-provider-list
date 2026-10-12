@@ -8538,5 +8538,23 @@
     "env_variable": "LINKAGI_API_KEY",
     "openai_compatible": true,
     "notes": "AI API gateway with CNY usage billing, public model pricing and per-key usage logs. Docs: https://docs.linktoagi.com/. Model IDs are selected from its public catalog; model and account-group access may vary."
+  },
+  {
+    "id": 487,
+    "name": "ModelRush",
+    "slug": "modelrush",
+    "aliases": [
+      "model-rush"
+    ],
+    "category": "Aggregator",
+    "website": "https://modelrush.ai",
+    "api_base_url": "https://api.modelrush.ai/v1",
+    "popular_models": [
+      "modelrush/deepseek-v4.1-flash",
+      "modelrush/glm-5.3"
+    ],
+    "env_variable": "MODELRUSH_API_KEY",
+    "openai_compatible": true,
+    "notes": "Paid, proprietary multi-model API with prepaid credits. OpenAI-compatible chat; images, video, and audio use separate documented endpoints. Model prices vary by capability. Docs: https://modelrush.ai/docs. Spicy image/video models require adult-access confirmation."
   }
 ]

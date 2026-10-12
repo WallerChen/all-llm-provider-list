@@ -1,8 +1,8 @@
 # All LLM providers
 
-**486 providers** · 4,457 model IDs · API URLs, env vars, and model names in one place.
+**487 providers** · 4,459 model IDs · API URLs, env vars, and model names in one place.
 
-Always confirm endpoints against official docs. To add or correct a provider, see [docs/contributing.md](docs/contributing.md). Updated 2026-10-09.
+Always confirm endpoints against official docs. To add or correct a provider, see [docs/contributing.md](docs/contributing.md). Updated 2026-10-11.
 
 ## Quick start
 
@@ -86,7 +86,7 @@ print(client.chat.completions.create(
 | [Inference platforms](#inference-platforms) | 63 |
 | [Cloud and enterprise](#cloud-and-enterprise) | 43 |
 | [Gateways and routers](#gateways-and-routers) | 129 |
-| [Aggregators](#aggregators) | 18 |
+| [Aggregators](#aggregators) | 19 |
 | [OAuth and IDE](#oauth-and-ide) | 22 |
 | [Public endpoints](#public-endpoints) | 10 |
 | [Search APIs](#search-apis) | 19 |
@@ -97,7 +97,7 @@ print(client.chat.completions.create(
 | [Specialized](#specialized) | 5 |
 | [Local and self-hosted](#local-and-self-hosted) | 27 |
 | Web cookie adapters (in data only) | 34 |
-| **Total** | **486** |
+| **Total** | **487** |
 
 Unofficial **web-cookie / browser-session** adapters (34) stay in `data/providers.json` so they do not clutter this page. List them with `python llm_lookup.py --category "Web Cookie"`.
 
@@ -461,6 +461,7 @@ Multi-vendor catalogs under one bill.
 | [AIHubMix](https://aihubmix.com) | `https://aihubmix.com/v1` | auto, claude-opus-5-5, gpt-6-luna | `AIHUBMIX_API_KEY` |
 | [EmpirioLabs AI](https://docs.empiriolabs.ai) | `https://api.empiriolabs.ai/v1` | glm-5-3, kling-3-0-turbo, glm-5-3-flash | `EMPIRIOLABS_API_KEY` |
 | [CometAPI](https://apidoc.cometapi.com/guides/change-base-url-to-cometapi) | `https://api.cometapi.com/v1` | auto, mimo-v2.6-pro-ultraspeed, gpt-6-sol | `COMETAPI_KEY` |
+| [ModelRush](https://modelrush.ai) | `https://api.modelrush.ai/v1` | modelrush/deepseek-v4.1-flash, modelrush/glm-5.3 | `MODELRUSH_API_KEY` |
 
 ## OAuth and IDE
 
